@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "jina reader helper",
+    "version": "1.0",
+    "description": "Redirects current tab URL by prepending a prefix when the icon is clicked.",
+    "permissions": [
+      "tabs" 
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_icon": "icon.png", 
+      "default_title": "Redirect URL" 
+    }
+  }
+  
